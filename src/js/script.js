@@ -4,4 +4,6 @@ $(document).ready(function () {
         slidesToShow: 1,
         speed: 800,
     });
+
+    new WOW().init();
 });

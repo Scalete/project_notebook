@@ -1,0 +1,42 @@
+.header {
+    min-height: 83px;
+    position: relative;
+    padding: 19.5px 0 19.38px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0;
+        &__item {
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 11px;
+                text-align: right;
+                letter-spacing: 0.663px;
+                text-transform: uppercase;
+                color: $my-first-color;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &_active {
+                a {
+                    font-weight: 500;
+                    color: #383938;
+                }
+            }
+        }
+    }
+}

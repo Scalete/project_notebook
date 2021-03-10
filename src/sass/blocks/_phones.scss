@@ -1,0 +1,22 @@
+.phones {
+    margin-top: 151px;
+    &__slider {
+        position: relative;
+        div {
+            outline: none;
+        }
+        img {
+            width: 100%;
+        }
+        outline: none;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 78px;
+        text-align: center;
+        letter-spacing: 3.12px;
+        color: #383938;
+        margin-bottom: 56px;
+    }
+}

@@ -1,0 +1,52 @@
+.button {
+    max-width: 139px;
+    max-height: 44px;
+    background: #F5F6F9;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.663px;
+    text-transform: uppercase;
+    color: $my-first-color;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.features-btn {
+    max-width: 258px;
+    max-height: 60px;
+    border: 1px solid #70737e;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.34px;
+    text-transform: uppercase;
+    color: $my-first-color;
+    background: #ffff;
+    overflow: hidden;
+    &_center {
+        display: block;
+        margin: 0 auto;
+    }
+    &_mt78 {
+        margin-top: 78px;
+    }
+}
+
+.download {
+    cursor: pointer;
+    max-width: 135px;
+    &_center {
+        display: block;
+        margin: 0 auto;
+    }
+    &_mt25 {
+        margin-top: 25px;
+    }
+}

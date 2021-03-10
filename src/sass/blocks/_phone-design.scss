@@ -1,0 +1,49 @@
+.phone-design {
+    min-height: 4356px;
+    &-block {
+        min-height: 1288px;
+        &_mb260 {
+            margin-bottom: 260px;
+        }
+        &__title {
+            font-weight: 400;
+            font-size: 33px;
+            line-height: 53px;
+            text-align: center;
+            letter-spacing: 1.56px;
+            color: #383938;
+            &_mb25 {
+                margin-bottom: 25px;
+            }
+            &_fsz31 {
+                font-size: 31px;
+            }
+        }
+        &__descr {
+            display: block;
+            margin: 0 auto;
+            width: 496px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 29px;
+            text-align: center;
+            color: $my-first-color;
+            &_mb72 {
+                margin-bottom: 72px;
+            }
+            &_fsz11 {
+                font-size: 11px;
+            }
+        }
+        &__square {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F0F2FA;
+            height: 1052px;
+        }
+        &__img {
+            max-width: 50%;
+        }
+    }
+}

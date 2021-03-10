@@ -1,0 +1,12 @@
+.private {
+    min-height: 1172px;
+    &__images {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__image {
+        max-width: 611px;
+        max-height: 645px;
+    }
+}

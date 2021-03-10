@@ -3,8 +3,6 @@
 /.pnp
 .pnp.js
 
-/src/sass/*
-
 # testing
 /coverage
 
